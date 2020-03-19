@@ -1,0 +1,5 @@
+/home/yuan/XSpace/Ending/Camera/stereo/build/CMakeFiles/rebuild_cache.dir
+/home/yuan/XSpace/Ending/Camera/stereo/build/CMakeFiles/edit_cache.dir
+/home/yuan/XSpace/Ending/Camera/stereo/build/CMakeFiles/get_depth.dir
+/home/yuan/XSpace/Ending/Camera/stereo/build/CMakeFiles/stereo_depth.dir
+/home/yuan/XSpace/Ending/Camera/stereo/build/CMakeFiles/my_test.dir

@@ -28,11 +28,11 @@ inline bool getPath(int index, string& path){
 }
 
 
-Mat depthFill(const Mat& depth0){
-// void depthFill(Mat& depth){
+// Mat depthFill(const Mat& depth0){
+void depthFill(Mat& depth){
     debug(1);
     
-    Mat depth = depth0.clone();
+//     Mat depth = depth0.clone();
     const int width = depth.cols;
     const int height = depth.rows;
     
@@ -123,7 +123,8 @@ Mat depthFill(const Mat& depth0){
                 }
                 if(j>=320 || i>=240) continue;
                 float temp = float(sumGray / ptsCnt);
-                data[id2] = temp;
+                cout << temp << endl;
+                data[id2] = (int)temp;
             }
         }
         int s = wnd / 2 * 2 + 1;
@@ -139,7 +140,7 @@ Mat depthFill(const Mat& depth0){
     cout << "width: " << depth.cols << ' ' << "height: " << depth.rows << endl;
     debug(6);
     
-    return depth;
+//     return depth;
 }
 
 
@@ -158,7 +159,9 @@ int main(int argc, char** argv)
         cvtColor(depth, depth, CV_BGR2GRAY);
         imshow("depth", depth);
         
-        test2(depth);
+//         test2(depth);
+        
+        depthFill(depth);
         
 //         cout << "depth type: "<< depth.type() << endl;
         
