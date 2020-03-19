@@ -1,0 +1,30 @@
+<launch>
+  <node pkg="surfel_fusion" type="surfel_fusion" name="surfel_fusion" clear_params="true" output="screen">
+
+    <!-- camera parameter -->
+    <param name="cam_width" value="610" />
+    <param name="cam_height" value="480" />
+
+    <!--input image info-->
+    <param name="cam_fx" value="559.9182621692132" />
+    <param name="cam_cx" value="314.4082093422621" />
+    <param name="cam_fy" value="560.3746612969901" />
+    <param name="cam_cy" value="228.3045268209525" />
+
+    <!-- fusion parameter, all in meter -->
+    <param name="fuse_far_distence" value="8.0" />
+    <param name="fuse_near_distence" value="0.6" />
+
+    <!-- for deform the map -->
+    <param name="drift_free_poses" value="10" />
+
+    <!-- for data save -->
+    <!-- <param name="save_name" value="/home/yuan/XSpace/Ending/DenseSurfelMapping/surfel_fusion/results/kitti/rgbd" /> -->
+
+    <remap from="~image" to="/left_image" />
+    <remap from="~depth" to="/depth_image" />
+    <remap from="~loop_path" to="/orb_slam/path" />
+    <remap from="~this_pose" to="/orb_slam/pose" />
+    <remap from="~loop_stamps" to="/orb_slam/loop" />
+  </node>
+</launch>

@@ -1,0 +1,13 @@
+/home/yuan/XSpace/Ending/Camera/depth/data/00001_color.png
+/home/yuan/XSpace/Ending/Camera/depth/data/00002_color.png
+/home/yuan/XSpace/Ending/Camera/depth/data/00003_color.png
+/home/yuan/XSpace/Ending/Camera/depth/data/00004_color.png
+/home/yuan/XSpace/Ending/Camera/depth/data/00005_color.png
+/home/yuan/XSpace/Ending/Camera/depth/data/00006_color.png
+/home/yuan/XSpace/Ending/Camera/depth/data/00007_color.png
+/home/yuan/XSpace/Ending/Camera/depth/data/00008_color.png
+/home/yuan/XSpace/Ending/Camera/depth/data/00009_color.png
+/home/yuan/XSpace/Ending/Camera/depth/data/00011_color.png
+/home/yuan/XSpace/Ending/Camera/depth/data/00012_color.png
+/home/yuan/XSpace/Ending/Camera/depth/data/00013_color.png
+/home/yuan/XSpace/Ending/Camera/depth/data/00014_color.png
